@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(180deg, rgb(237, 233, 233), #fff 100px, #fff);
+}
+
+.container {
+    max-width: 960px;
+}
+
+/* Khi một quy luật nào đó được gán lệnh !important thì đồng nghĩa với việc nó sẽ có mức ưu tiên cao nhất */
+.b-icon {
+    margin-right: 0.5rem !important;
+    /* Kích thước font chữ ảnh hưởng khá nhiều đến thiết kế của một website. 
+    Vì thế ta nên sử dụng rem, em để đảm bảo với bất kỳ kích thước font chữ nào người dùng thiết lập 
+    thì bố cục trang web của bạn cũng sẽ điều chỉnh phù hợp với kích thước font đó. 
+    1rem = 16px ---> 0.5rem = 8px */
+}
